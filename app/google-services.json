@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153365474724",
+    "project_id": "wateryourplant-d9962",
+    "storage_bucket": "wateryourplant-d9962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153365474724:android:b47d366f9586cb5a0de531",
+        "android_client_info": {
+          "package_name": "com.holsui.wateryourplant3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153365474724-qk6hg1h4q1ns91tnqd3622rtiinot1j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Iu9_x1nSz-jMU8ahJ_mlcGeWOYIqOIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153365474724-qk6hg1h4q1ns91tnqd3622rtiinot1j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

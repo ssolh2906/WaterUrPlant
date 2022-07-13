@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/plantListFragment">
+
+    <fragment
+        android:id="@+id/plantListFragment"
+        android:name="com.holsui.wateryourplant3.plantlist.PlantListFragment"
+        android:label="fragment_plant_list"
+        tools:layout="@layout/fragment_plant_list" >
+        <action
+            android:id="@+id/action_plantListFragment_to_plantDetailFragment"
+            app:destination="@id/plantDetailFragment" />
+        <action
+            android:id="@+id/action_plantListFragment_to_newPlantFragment"
+            app:destination="@id/newPlantFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantDetailFragment"
+        android:name="com.holsui.wateryourplant3.plantdetail.PlantDetailFragment"
+        android:label="fragment_plant_detail"
+        tools:layout="@layout/fragment_plant_detail" >
+        <argument
+            android:name="plant_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newPlantFragment"
+        android:name="com.holsui.wateryourplant3.newplant.NewPlantFragment"
+        android:label="fragment_new_plant"
+        tools:layout="@layout/fragment_new_plant" >
+
+        <action
+            android:id="@+id/action_newPlantFragment_to_plantListFragment"
+            app:popUpTo="@id/plantListFragment" />
+    </fragment>
+</navigation>
