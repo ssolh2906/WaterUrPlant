@@ -5,15 +5,17 @@ Android application for Smartfarm Project (Smartfarm Water management system usi
 
 ## INRODUCTION
  User application that shows plant moisture history using moisture sensor & weight sensor
- 
+
 
 ## DEVELOPED ENVIROMENT
 - Firebase Realtime Database
 - Android Studio Chipmunk | 2021.2.1 Patch 1
 
 
-## TARGET API 
+## TARGET API
  - targetApi : 31
 
 
 ## ABOUT THE PROJECT
+
+<img src="/images/poster.jpg" width="920px">
